@@ -4,6 +4,7 @@
 *Column 1*
 
 Activity	- Factor variable with 6 levels from 1 to 6 labled as follows:
+                        |-|---------------------|
 			|1|  WALKING            |
 			|2|  WALKING UPSTAIRS   |
 			|3|  WALKING DOWNSTAIRS |
