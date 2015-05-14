@@ -21,13 +21,14 @@ Subject		- An integer vector each representing the respective 30 volunteers who 
 
 All these are numeric vectors containing the Average mean or standard deviation for measurements as depicted by each of the column names in respect of each activity and volunteer.
 
-ColNum	Name				Description
+		ColNum |	Name	|			Description
+		-------|:--------------:|-----------------------------------:
 
-3	tBodyAccmeanX			tBodyAcc-mean()-X
-4	tBodyAccmeanY			tBodyAcc-mean()-Y
-5	tBodyAccmeanZ			tBodyAcc-mean()-Z
-6	tBodyAccstdX			tBodyAcc-std()-X
-7	tBodyAccstdY			tBodyAcc-std()-Y
+		3	|	tBodyAccmeanX	|		tBodyAcc-mean()-X
+		4	|	tBodyAccmeanY	|			tBodyAcc-mean()-Y
+		5	|	tBodyAccmeanZ	|			tBodyAcc-mean()-Z
+		6	|	tBodyAccstdX	|			tBodyAcc-std()-X
+		7	|	tBodyAccstdY	|			tBodyAcc-std()-Y
 8	tBodyAccstdZ			tBodyAcc-std()-Z
 9	tGravityAccmeanX		tGravityAcc-mean()-X
 10	tGravityAccmeanY		tGravityAcc-mean()-Y
