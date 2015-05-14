@@ -37,13 +37,19 @@ Please find the Code-Book which describes the variables in the results dataset t
 
 ##Justification for format chosen for tidy dataset
 
-Hadley Wickham's frame work for tidy data supports the idea  "each variable forms a column". 
-Based on this principal it was decided to treat the Activity variable as a single column which puts the tidy dataset in a wide format.
-According to comments made in the discussion forum for this project, the wide format has been mostly favored in previous groups as well. 
-That further corroborates the idea.
-Having said that, the final decision as to the most fitting dataset depends greatly on the type of analysis and the semantics of the dataset.
-From a presentation perspective the narrow format seems better.  
-The reader may easily convert it to the narrow format by simply applying a two step process in one line as follows:
+In the absence of a specific problem to be solved, I have espoused the frame work for tidy data put forward in Hadly Wickham's paper on Tidy Data.
+
+This frame work for tidy data supports the following three ideas
+	1. Each variable forms a column
+	2. Each observation forms a row
+	3. Each type of observational unit forms a table 
+The paper also defines a variable as having all values that measure the same underlying attribute.
+Therefore the averages of the measurements were considered variables and treated as columns.
+For this dataset an observation can be thought of as the collection of all values measured per activity per subject.
+By virtue of this definition for  variable and observation the tidy dataset for this case turns out to be the wide format.
+That is, the averages for each mean and each standard-deviation are listed in respect per activity per subject. 
+From a semantics point of view too, this format lends itself to easily pick any measurement average per activity and/or subject for further manipulation.
+However, if needed, it can be easily converted to the narrow format by simply applying a two step process in one line as follows:
 
 tidy_data1 <- result %>% gather(measurement, average, -(activity:subject)) %>% spread(activity,average)
 

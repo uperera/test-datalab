@@ -1,16 +1,16 @@
 
-##DATA DICTIONARY - RESULTS
+##DATA DICTIONARY for Tiday Dataset RESULTS
 
 *Column 1*
 
-Activity	- Factor variable with 6 levels from 1 to 6 labled as follows:                     
+Activity	- Factor variable with 6 levels labled as follows:                     
 		       1   WALKING           
 		       2   WALKING UPSTAIRS  
 		       3   WALKING DOWNSTAIRS 
 		       4   SITTING             
 		       5   STANDING            
 		       6   LAYING             
-		 These are the 6 activities carried out by the 30 volunteers in the experiment.
+		 (These are the 6 activities carried out by the 30 volunteers in the experiment)
 
 *Column 2*
  
@@ -21,8 +21,8 @@ Subject		- An integer vector each representing the respective 30 volunteers who 
 
 These are numeric vectors containing the Average mean or standard deviation for measurements as depicted by each of the column names in respect of each activity and volunteer.
 
-		ColNum |	Name	|			Description
-		-------|:--------------:|-----------------------------------:
+		ColNumber |	Name	|			Description
+		----------|:--------------:|-----------------------------------:
 		3	|tBodyAccmeanX			|tBodyAcc-mean()-X
 		4	|tBodyAccmeanY			|tBodyAcc-mean()-Y
 		5	|tBodyAccmeanZ			|tBodyAcc-mean()-Z
