@@ -23,20 +23,38 @@ All these are numeric vectors containing the Average mean or standard deviation 
 
 		ColNum |	Name	|			Description
 		-------|:--------------:|-----------------------------------:
-
 		3	|	tBodyAccmeanX	|		tBodyAcc-mean()-X
 		4	|	tBodyAccmeanY	|			tBodyAcc-mean()-Y
 		5	|	tBodyAccmeanZ	|			tBodyAcc-mean()-Z
 		6	|	tBodyAccstdX	|			tBodyAcc-std()-X
 		7	|	tBodyAccstdY	|			tBodyAcc-std()-Y
-8	tBodyAccstdZ			tBodyAcc-std()-Z
-9	tGravityAccmeanX		tGravityAcc-mean()-X
-10	tGravityAccmeanY		tGravityAcc-mean()-Y
-11	tGravityAccmeanZ		tGravityAcc-mean()-Z
-12	tGravityAccstdX			tGravityAcc-std()-X
-13	tGravityAccstdY			tGravityAcc-std()-Y
-14	tGravityAccstdZ			tGravityAcc-std()-Z
+		8	|	tBodyAccstdZ	|			tBodyAcc-std()-Z		
+		9	|	tGravityAccmeanX |		tGravityAcc-mean()-X		
+		10	|tGravityAccmeanY  |		tGravityAcc-mean()-Y		
+		11	|tGravityAccmeanZ |		tGravityAcc-mean()-Z		
+		12	|tGravityAccstdX			tGravityAcc-std()-X		
+		13	|tGravityAccstdY |			tGravityAcc-std()-Y		
+		14	|tGravityAccstdZ |			tGravityAcc-std()-Z
+		
 15	tBodyAccJerkmeanX		tBodyAccJerk-mean()-X
+
+		
+8	tBodyAccstdZ			tBodyAcc-std()-Z
+
+9	tGravityAccmeanX		tGravityAcc-mean()-X
+
+10	tGravityAccmeanY		tGravityAcc-mean()-Y
+
+11	tGravityAccmeanZ		tGravityAcc-mean()-Z
+
+12	tGravityAccstdX			tGravityAcc-std()-X
+
+13	tGravityAccstdY			tGravityAcc-std()-Y
+
+14	tGravityAccstdZ			tGravityAcc-std()-Z
+
+15	tBodyAccJerkmeanX		tBodyAccJerk-mean()-X
+
 16	tBodyAccJerkmeanY		tBodyAccJerk-mean()-Y
 17	tBodyAccJerkmeanZ		tBodyAccJerk-mean()-Z
 18	tBodyAccJerkstdX		tBodyAccJerk-std()-X
