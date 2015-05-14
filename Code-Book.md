@@ -4,13 +4,13 @@
 *Column 1*
 
 Activity	- Factor variable with 6 levels from 1 to 6 labled as follows:                     
-                                  
-                       * 1   WALKING           
-		       * 2   WALKING UPSTAIRS  
-		       * 3   WALKING DOWNSTAIRS 
-		       * 4   SITTING             
-		       * 5   STANDING            
-		       * 6   LAYING             
+                                 
+                       1   WALKING           
+		       2   WALKING UPSTAIRS  
+		       3   WALKING DOWNSTAIRS 
+		       4   SITTING             
+		       5   STANDING            
+		       6   LAYING             
 		 These are the 6 activities carried out by the 30 volunteers in the experiment.
 
 *Column 2*
