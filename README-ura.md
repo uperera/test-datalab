@@ -7,6 +7,7 @@ Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTA
 
 ##Input Data
 The script reads the following INPUT DATA files obtained from the Experiment.
+
  	features.txt: List of all features.
  	activity_labels.txt: Links the class labels with their activity name.
  	train/X_train.txt: Training set.
