@@ -1,5 +1,5 @@
 
-##DATA DICTIONARY for Tiday Dataset RESULTS
+##DATA DICTIONARY for Tidy Dataset
 
 *Column 1*
 
