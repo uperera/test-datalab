@@ -17,10 +17,10 @@ The script reads the following INPUT DATA files obtained from the Experiment.
 
 ##What the Script Does
 
-	Section0.Loads the required R packages using read.table function.
-	Section1.Merges the training and the test sets using rbind to create one data set and combine subject and activity id data with measurement data using cbind.
+	Section0.Loads dplyr and tidyr packages and reads data files using read.table function.
+	Section1.Merges the training and the test datasets using rbind to create one set and combines subject and activity id data with measurement data using cbind.
 	Section2.Extracts the mean and standard deviation for each measurement using select().
-	Section3.Labels the data set with descriptive variable names using names(). *Control Characters were removed from descriptions for easy manipulation*
+	Section3.Labels the data set with descriptive variable names using names(). Control Characters were removed from descriptions for easy manipulation.
 	Section4.Replaces activity column ids with activity names using factor().
 	Section5.Creates a tidy dataset of Averages named result from the data set in step 4, for each activity and subject 
                  group_by() and summarise_each() functions have been used in achieving this result.
@@ -31,6 +31,7 @@ The script reads the following INPUT DATA files obtained from the Experiment.
 The tidy dataset result has been saved to a text file using the following command and submitted as part of the course project.
 write.table(result, file = "result.txt", row.name = FALSE)
 It can be read into R using the following: 
+
 data <- read.table(file_path, header = TRUE)
 
 ##Code Book
