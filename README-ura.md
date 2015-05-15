@@ -22,8 +22,8 @@ The script reads the following INPUT DATA files obtained from the Experiment.
 	Section2.Extracts the mean and standard deviation for each measurement using select().
 	Section3.Labels the data set with descriptive variable names using names(). Control Characters were removed from descriptions for easy manipulation.
 	Section4.Replaces activity column ids with activity names using factor().
-	Section5.Creates a tidy dataset of Averages named result from the data set in step 4, for each activity and subject 
-                 group_by() and summarise_each() functions have been used in achieving this result.
+	Section5.Creates a tidy dataset of Averages named result from the data set in step 4, for each activity and subject
+	         group_by() and summarise_each() functions have been used in achieving this result.
 
 
 ##How to read the result dataset
@@ -39,7 +39,7 @@ Please find the Code-Book which describes the variables in the results dataset t
 
 ##Justification for format chosen for tidy dataset
 
-In the absence of a specific problem to be solved, I have espoused the frame work for tidy data put forward in Hadly Wickham's paper on Tidy Data.
+In the absence of a specific problem to be solved, I have espoused the frame work for tidy data put forward in Hadly Wickham's paper on Tidy Data as guidance.
 
 This frame work for tidy data supports the following three ideas
 
